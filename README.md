@@ -52,7 +52,9 @@ We thank the authors of the following open-source projects for their valuable co
 
 - [ECON](https://github.com/YuliangXiu/ECON)  
 - [TokenHMR](https://github.com/saidwivedi/TokenHMR)
-
+- [PyMAF](https://github.com/HongwenZhang/PyMAF)
+- [SPIN](https://github.com/nkolot/SPIN)
+- [SAPIENS](https://github.com/facebookresearch/sapiens)
 ---
 
 ## 📖 Citation  
