@@ -9,8 +9,8 @@
 
 
 
-![Qualitative Results](./assets/results.png)  
-![Qualitative Results](./assets/results2.png)  
+![Qualitative Results](./assets/images.PNG)  
+![Qualitative Results](./assets/images2.PNG)  
 
 ---
 
