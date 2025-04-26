@@ -34,7 +34,7 @@ Download the pretrained model from the following links and place it in the `chec
 
 
 ### Step 2: Run Demo or Train  
-
+**Step 1:** Use SAPIEN(S) to obtain the human depth map and 133 keypoints.
 ```bash
 # Run demo
 cd apps
@@ -49,8 +49,8 @@ python  infer.py
 
 We thank the authors of the following open-source projects for their valuable code and resources:
 
-- [ECON]([https://github.com/xxx/awesome-project-1](https://github.com/YuliangXiu/ECON))  
-- [TokenHMR]([https://github.com/xxx/awesome-project-2](https://github.com/saidwivedi/TokenHMR))
+- [ECON](https://github.com/YuliangXiu/ECON)  
+- [TokenHMR](https://github.com/saidwivedi/TokenHMR)
 
 ---
 
