@@ -41,7 +41,7 @@ Save the depth maps in the `images_depth` folder and the pose keypoints in the `
 ```bash
 # Run demo
 cd apps
-python  infer.py --in_dir ./examples/images
+python  infer.py --in_dir ./examples/images --out_dir ./examples/output
 #You can use TokenHMR, PyMAF, or SPIN to obtain the initial SMPL model.
 ```
 
