@@ -49,8 +49,8 @@ if __name__ == "__main__":
             parser.add_argument("-patience", "--patience", type=int, default=5)
             parser.add_argument("-vis_freq", "--vis_freq", type=int, default=1000)
             parser.add_argument("-loop_cloth", "--loop_cloth", type=int, default=0)
-            parser.add_argument("-in_dir", "--in_dir", type=str, default="/media/bbnc/f5b625d7-edc3-4337-8b98-4f3180d5a4ef/GYQ/tennis/德约科维奇/top_mask/512")
-            parser.add_argument("-out_dir", "--out_dir", type=str, default="/media/bbnc/f5b625d7-edc3-4337-8b98-4f3180d5a4ef/GYQ/tennis/德约科维奇/top_mask/512_smpl_normal")
+            parser.add_argument("-in_dir", "--in_dir", type=str, default="./examples/images/frame_10.png")
+            parser.add_argument("-out_dir", "--out_dir", type=str, default="./examples/images/output")
             parser.add_argument("-seg_dir", "--seg_dir", type=str, default=None)
             parser.add_argument("-cfg", "--config", type=str, default="/media/bbnc/FE345AE3345A9F09/loose_cloth/clothHMR/configs/econ.yaml")
             parser.add_argument( "--model_type", type=str, default="smpl")
@@ -150,11 +150,11 @@ if __name__ == "__main__":
     
                 # print(data["img_path"])
                 
-                image_depth=cv2.imread(data["img_path"].replace("512","512_depth"),cv2.IMREAD_GRAYSCALE)/255
+                image_depth=cv2.imread(data["img_path"].replace("images","sapeins_depth"),cv2.IMREAD_GRAYSCALE)/255
                 image_depth=cv2.resize(image_depth,(512,512))
                 image_depth=image_depth*mask_save
                 image_depth = torch.from_numpy(image_depth).unsqueeze(0).unsqueeze(0).to(device).float()
-                keypoints_np=sapiens_joints_tokenhmr(data["img_path"].replace("512","512_pose")[:-4]+".json",512,512)
+                keypoints_np=sapiens_joints_tokenhmr(data["img_path"].replace("images","sapeins_pose")[:-4]+".json",512,512)
                 keypoints_2d=torch.from_numpy(keypoints_np).unsqueeze(0).to(device).float()
                 per_data_lst = []
 
