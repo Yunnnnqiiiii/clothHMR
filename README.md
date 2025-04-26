@@ -32,9 +32,11 @@ pip install -r requirements.txt
 Download the pretrained model from the following links and place it in the `data` folder:  
  [BaiduYun (password: xxxx)](https://pan.baidu.com/s/xxxx)
 
-
 ### Step 2:   
- Use  [sapiens](https://github.com/facebookresearch/sapiens) to obtain the human depth map and 133 keypoints.
+ Create the `images` path and place your input images there.  
+Use [sapiens](https://github.com/facebookresearch/sapiens) to obtain the human depth map and 133 keypoints.  
+Save the depth maps in the `images_depth` folder and the pose keypoints in the `images_pose` folder, following the structure shown in the `examples` directory.
+
 ### Step 3: Run Demo 
 ```bash
 # Run demo
