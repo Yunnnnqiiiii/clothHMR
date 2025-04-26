@@ -28,13 +28,14 @@ pip install -r requirements.txt
 
 ## 🚀 Usage  
 
-### Step 1: Download Pretrained Models (if any)  
-Download the pretrained model from the following links and place it in the `checkpoints` folder:  
+### Step 1: Download Pretrained Models 
+Download the pretrained model from the following links and place it in the `data` folder:  
  [BaiduYun (password: xxxx)](https://pan.baidu.com/s/xxxx)
 
 
-### Step 2: Run Demo or Train  
-**Step 1:** Use SAPIEN(S) to obtain the human depth map and 133 keypoints.
+### Step 2:   
+ Use - [sapiens](https://github.com/facebookresearch/sapiens) to obtain the human depth map and 133 keypoints.
+### Step 3: Run Demo 
 ```bash
 # Run demo
 cd apps
