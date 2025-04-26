@@ -17,7 +17,7 @@
 ## 🛠 Installation  
 
 ```bash
-git clone https://github.com/your_username/your_repo.git
+git clone https://github.com/leyuanCv/ClothHMR.git
 cd your_repo
 conda create -n clothhmr python=3.10
 conda activate clothhmr
