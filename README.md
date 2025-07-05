@@ -1,7 +1,7 @@
 # 📄 ClothHMR: 3D Mesh Recovery of Humans in Diverse Clothing from Single Image
 > *Yunqi Gao, Leyuan Liu, Yuhan Li, Changxin Gao, Yuanyuan Liu, Jingying Chen*  
 > *ICMR 2025*  
-> [[arXiv]]("https://dl.acm.org/doi/10.1145/3731715.3733288") | [[Project Page]]()  
+> [[paper]](https://dl.acm.org/doi/10.1145/3731715.3733288) | [[Project Page]]()  
 
 
 ## 📊 Results  
