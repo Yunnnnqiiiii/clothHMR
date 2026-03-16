@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### Step 1: Download Pretrained Models 
 Download the pretrained model from the following links and place it in the `data` folder:  
- [Google Drive](https://drive.google.com/file/d/1bIReXbDqDlIKiu3xqTguNZ6iXaDzSseR/view?usp=drive_link)
+ [Google Drive]([https://drive.google.com/file/d/1bIReXbDqDlIKiu3xqTguNZ6iXaDzSseR/view?usp=drive_link](https://drive.google.com/file/d/1iEArjuSFT-8eH_Xu2Dh2CcysZB9q7OIC/view?usp=sharing))
 
 ### Step 2:   
  Create the `images` path and place your input images there.  
